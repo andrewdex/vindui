@@ -306,6 +306,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endC
 	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	margin-bottom: 2px;
 }
+
+.navbarfixed{
+	
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
 .nav {
 	display: block;
 	position: relative;
@@ -339,6 +347,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endC
 	color: #ffffff;
 	background-color: #26609E;
 }
+
+
 .v >li {
 	float: none;
 	list-style: disc;
@@ -406,6 +416,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endC
 	background-image: linear-gradient(#f9f9f9, #f3f3f3);
 	background-repeat: repeat-x;
 }
+.greensec{
+	
+background: #268F61;
+
+}
+.redsec{
+	
+	background: #8F2A26;
+}
+
 .dxheader {
 	color: #13BCE4;
 	font-weight: bold;
@@ -629,6 +649,10 @@ Font Option Sets
 .fontsmall{
 	font-size:12px;
 	
+}
+.fontbold{
+	
+	font-weight: bold;
 }
 
 	
