@@ -3,7 +3,7 @@
 Vind UI CSS Framework
 Author: Andrew dEX (Dilusha)
 Github : @andrewdex
-Version 1.0
+Version: Alpha
 */
 body {
 	margin: 0 auto;
@@ -606,8 +606,13 @@ padding-bottom:5px;
 color:#FFF;	
 	
 }
+.fontyellow{
+color:yellow;
+}
 
-
+.fontred{
+color:red;
+}
 /*
 Font Option Sets
 
