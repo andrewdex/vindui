@@ -314,6 +314,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endC
 	left:0px;
 }
 
+.fixedleft{
+	position:fixed;
+	left:0;
+}
+
 .nav {
 	display: block;
 	position: relative;
@@ -338,6 +343,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endC
 	display: block;
 	cursor: pointer;
 }
+
 .nav>li>a:hover, .nav>li>a:focus {
 	text-decoration: none;
 	color: #ffffff;
@@ -348,11 +354,47 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endC
 	background-color: #26609E;
 }
 
+/*Side Nav*/
 
-.v >li {
+.verti li{
+	
+	width:100%;
+	background: rgb(68, 60, 60);
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(73, 138, 255);
+	cursor: pointer;
 	float: none;
-	list-style: disc;
+	
+	
+	border-radius: 8px;
 }
+
+.verti>.active {
+color: #ffffff;
+background-color:#26609E ;
+}
+
+.verti>li>a:hover, .verti>li>a:focus {
+	text-decoration: none;
+	color: #000000;
+	background-color: rgb(36, 135, 212);;
+	font-weight: bold;
+	/* border-width: 1px; */
+	/* border-style: solid; */
+	/* border-color: rgb(0, 82, 255); */
+	border-radius: 8px;
+}
+
+.vertiOnly {
+	margin: 0;
+	width: 204px;
+	margin-left: -39px;
+	width: 98%;
+	
+	border-radius: 12px;
+}
+
 .bggray {
 	background: #CCC;
 }
@@ -462,12 +504,8 @@ background: #268F61;
 .center {
 	text-align: center;
 }
-/*
-SideBar
-*/
 
-.SideBar {
-}
+
 /*
 Table Styles
 
@@ -539,6 +577,7 @@ Background Color Sets
 	background: linear-gradient(to bottom, rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7', GradientType=0 ); /* IE6-8 */
 }
+
 /*
 Login Panels
 
@@ -655,5 +694,39 @@ Font Option Sets
 	font-weight: bold;
 }
 
-	
-	
+/*
+CSS Layouts 
+
+*/
+
+
+.layleft{
+	float:left;
+	width:20%;
+	height:100%;
+	display:inline-block;
+	margin-top: 10px;
+	border-radius: 12px;
+}
+.laymiddle{
+	height:100%;
+	float:left;
+width:60%;
+	display:inline-block;
+}
+.layright{
+	height:100%;
+	float:left;
+	width:20%;	
+	display:inline-block;
+}
+
+.layrightOnly{
+	height:100%;
+	float: right;
+
+	width: 80%;
+	display:inline-block;
+    
+}
+
